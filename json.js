@@ -11,4 +11,7 @@ const ochko = [
 
 const body = document.querySelector('body');
 const jsonChik = JSON.stringify(ochko);
-document.write(jsonChik)
+
+const pre = document.createElement('pre');
+document.body.append(pre);
+pre.innerHTML = jsonChik;
